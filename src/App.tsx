@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import "bootstrap/dist/css/bootstrap.min.css"
 import { useMemo } from 'react'
 import { Container } from 'react-bootstrap'
 import { Route, Routes, Navigate } from 'react-router-dom'
@@ -6,6 +6,7 @@ import { useLocalStorage } from './useLocalStorage'
 import { v4 as uuidv4 } from "uuid"
 import { NewNote } from './NewNote'
 import { NoteList } from './NoteList'
+import { NoteLayout } from './NoteLayout'
 import { Note } from './Note'
 import { EditNote } from './EditNote'
 
